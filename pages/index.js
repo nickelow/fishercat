@@ -1,27 +1,19 @@
 import Head from "next/head";
-import Header from "../components/Header";
 import Main from "../components/Main";
-import Footer from "../components/Footer";
 import { NextSeo } from "next-seo";
 
 export default function Home() {
   return (
-    <div className="text-black bg-black">
+    <div className="bg-black">
       <NextSeo
-        title="Home: nine4"
-        description="Welcome to nine4 homepage."
-        canonical="https://nine4-3.vercel.app/"
-        openGraph={{
-          url: "https://nine4-3.vercel.app/",
-        }}
+        title="Contract Recruiters and Recruiting Consulting"
+        description="Contract recruiters and recruiting consulting for early stage startups"
       />
       <Head>
-        <title>nine4</title>
+        <title>Fishercat Consulting</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
-      <Header />
       <Main />
-      <Footer />
     </div>
   );
 }
