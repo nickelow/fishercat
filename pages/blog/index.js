@@ -3,7 +3,7 @@ import React from "react";
 export default function Blog() {
   return (
     <section class="text-white-600 text-base body-font bg-black">
-      <div class="max-w-5xl pt-28 pb-24 mx-auto flex flex-col items-center content">
+      <div class="max-w-5xl pt-52 pb-24 mx-auto flex flex-col items-center content">
         <img
           class="max-w-full h-auto p-4"
           src="/images/fishercat.png"
