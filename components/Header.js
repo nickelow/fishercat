@@ -4,8 +4,8 @@ import NavbarItem from "./NavbarItem";
 
 const navbarItems = [
   { title: "Values", href: "/values" },
-  { title: "Blog", href: "/blog" },
   { title: "Testimonials", href: "/testimonials" },
+  { title: "Blog", href: "/blog" },
   { title: "About Us", href: "/about-us" },
 ];
 

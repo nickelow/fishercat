@@ -35,7 +35,7 @@ export default function AboutUs() {
         </div>
         <div class="ktq4">
           <h3 class="font-semibold text-white mx-auto">
-            Contact Me
+            <div className="contact-header">Contact Me</div>
             <br />
             Email:
             <a href="mailto: kcaravelli@fishercat.us" target="_blank">

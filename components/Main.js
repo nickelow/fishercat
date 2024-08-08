@@ -1,7 +1,7 @@
 export default function Main() {
   return (
     <section class="text-white-600 text-base body-font bg-black content">
-      <div class="max-w-5xl pt-52 pb-24 mx-auto flex flex-col items-center">
+      <div class="max-w-5xl pt-52 pb-12 mx-auto flex flex-col items-center">
         <img
           src="/images/Fishercat Consulting-01.png"
           height="500"
@@ -17,7 +17,7 @@ export default function Main() {
       <h2 className="mb-1 text-2xl font-semibold tracking-tighter text-center text-white-200 lg:text-7xl md:text-6xl">
         Services
       </h2>
-      <div className="pt-12 pb-24 max-w-4xl mx-auto fsac4 md:px-1 px-3">
+      <div className="pt-12 pb-12 max-w-4xl mx-auto fsac4 md:px-1 px-3">
         <div class="ktq4">
           <h3 class="font-semibold text-lg text-white">
             Hands-on recruiting for the following functions:
@@ -36,7 +36,7 @@ export default function Main() {
       <h2 className="mb-1 text-2xl font-semibold tracking-tighter text-center text-white-200 lg:text-7xl md:text-6xl">
         Why Work With Us?
       </h2>
-      <div className="pt-12 pb-24 max-w-4xl mx-auto fsac4 md:px-1 px-3">
+      <div className="pt-12 pb-12 max-w-4xl mx-auto fsac4 md:px-1 px-3">
         <div class="ktq4">
           <h3 class="font-semibold text-lg text-white">
             With vast experience in building and scaling early stage
