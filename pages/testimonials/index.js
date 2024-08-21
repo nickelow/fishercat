@@ -2,27 +2,30 @@ import React from "react";
 
 export default function Testimonials() {
   return (
-    <section class="text-white-600 text-base body-font bg-black content">
-      <div class="max-w-5xl pt-52 pb-24 mx-auto">
-        <h1 class="text-3xl">
+    <section className="text-white-600 text-base body-font bg-black">
+      <div className="max-w-5xl pt-52 pb-24 mx-auto px-2 sm:px-0 text-center sm:text-left">
+        <h1 className="text-3xl mb-4">
           Don’t just take our word for it, see what past partners have said
         </h1>
-        <br />
-        <p>
+        <p className="mb-4">
           <a
-            class="text-2xl"
+            className="text-2xl"
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/in/patric-eck/"
           >
             Patrick Eck, Director of Data Science & Analytics | Fast Growing
             Trees
           </a>
-          <a href="https://www.linkedin.com/in/patric-eck/" target="_blank">
-            <i class="fab fa-linkedin linkedin"></i>
+          <a
+            href="https://www.linkedin.com/in/patric-eck/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-linkedin linkedin"></i>
           </a>
         </p>
-        <br />
-        <p>
+        <p className="mb-4">
           “I had the pleasure of working closely with Kyle to hire for multiple
           roles on my data analytics team at Fast Growing Trees. Kyle went above
           and beyond to deeply understand the expectations for the roles and
@@ -37,11 +40,11 @@ export default function Testimonials() {
           to any team or organization looking to quickly recruit top-tier
           talent.“
         </p>
-        <br />
-        <p>
+        <p className="mb-4">
           <a
-            class="text-2xl"
+            className="text-2xl"
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/in/michaeljrodriguez/"
           >
             Michael Rodriguez, Co-Founder & Chief Product Officer | Telemetry
@@ -49,11 +52,11 @@ export default function Testimonials() {
           <a
             href="https://www.linkedin.com/in/michaeljrodriguez/"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <i class="fab fa-linkedin linkedin"></i>
+            <i className="fab fa-linkedin linkedin"></i>
           </a>
         </p>
-        <br />
         <p>
           “Few things are more important to a business than the people they
           hire. Finding the right recruiting partners to work with hiring
