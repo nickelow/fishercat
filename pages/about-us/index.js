@@ -25,7 +25,7 @@ export default function AboutUs() {
           </div>
           <div class="flex-shrink-0 px-4">
             <img
-              class="max-w-full h-auto"
+              class="max-w-full h-auto mt-3 sm:mt-0"
               src="/images/kylepic.png"
               height="315"
               width="315"
