@@ -82,6 +82,34 @@ a {
   margin-left: 8px;
 }
 
+.bh-category-top-menu {
+  display: none !important;
+}
+
+.post-title a {
+  color: white !important;
+}
+
+.read-more-btn a {
+  background: #540515 !important;
+}
+
+.bh-homepage-title {
+  display: none !important;
+}
+
+.bh-posts {
+  font-family: "Questrial", sans-serif !important;
+}
+
+.bh-post-content bh-highlight2share p span {
+  font-family: "Questrial", sans-serif !important;
+}
+
+#bh-template-modern .bh-post-single .bh-post-content {
+  font-family: "Questrial", sans-serif !important;
+}
+
 @media (min-width: 720px) {
   .fsac4 {
     grid-template-columns: repeat(2, 1fr);
