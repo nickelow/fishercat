@@ -17,6 +17,11 @@ module.exports = {
         },
         crimson: "#5c0701",
       },
+      fontFamily: {
+        inter: ["var(--font-inter)", "sans-serif"],
+        spectral: ["var(--font-spectral)", "serif"],
+        questrial: ["var(--font-questrial)", "sans-serif"],
+      },
     },
   },
   variants: {
